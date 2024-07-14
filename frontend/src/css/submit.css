@@ -1,0 +1,84 @@
+/* Importing Google Font for Material Design */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(43, 43, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container Styles */
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 2rem;
+    max-width: 500px;
+    width: 60vw;
+}
+
+/* Form Header Styles */
+.form-header {
+    margin-bottom: 2rem;
+}
+
+.form-title {
+    font-size: 2rem;
+    margin: 0;
+    color: #333;
+}
+
+.form-description {
+    font-size: 1rem;
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+/* Form Styles */
+.material-form .form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.material-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #666;
+}
+
+.material-form input,
+.material-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.material-form input:focus,
+.material-form textarea:focus {
+    border-color: #6200ea;
+    outline: none;
+}
+
+.submit-button {
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #3700b3;
+}

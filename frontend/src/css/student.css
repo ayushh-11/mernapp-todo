@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+#container{
+    height:100vh;
+    min-width:100vw;
+    background-color: rgb(43, 43, 59);
+}
+#window{
+    width:50%;
+    margin:10px auto;
+    min-height:100px;
+    background-color:white;
+    border-radius : 10px;
+}
+h1{
+    text-align: center;
+    padding:10px;
+    Color:white;
+}
+nav{
+    height:50px;
+    padding:15px;
+    background-color: rgb(136, 136, 142);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(16, 15, 15, 0.1);
+    margin:10px auto;
+}
+
+.title {
+    margin: 0 0 10px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.description {
+    margin: 0 0 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn.update {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+.btn.update:hover {
+    background-color: #45a049;
+}
+
+.btn.delete {
+    background-color: #f44336;
+    color: #fff;
+}
+
+.btn.delete:hover {
+    background-color: #e53935;
+}
+a{
+    text-decoration: none;
+}
+.btn.create{
+    background-color: #4CAF50;
+    color: #fff;
+    width:50px;
+    margin:375px;
+}
+.logoutBtn{
+    padding:10px 20px;
+    border:none;
+    background-color: #e53935;
+    color:rgb(255, 255, 255);
+    border-radius: 4px;
+}
+.logoutBtn:hover{
+    cursor: pointer;
+    background-color: #c82a27;
+}
